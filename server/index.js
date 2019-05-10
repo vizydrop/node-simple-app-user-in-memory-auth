@@ -8,6 +8,7 @@ app.use(bodyParser.json());
 
 app.get('/', (req, res) => {
     const app = {
+        id: `demoapp`,
         name: 'Custom app user auth ',
         version: '1.0',
         type: 'none',
